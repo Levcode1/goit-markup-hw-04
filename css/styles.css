@@ -396,6 +396,7 @@ padding-bottom: 120px;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item li {
@@ -407,6 +408,7 @@ padding-bottom: 120px;
 
 .portfolio-item:hover .taste-iteam-text {
     transform: translateY(0);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item:hover {
@@ -415,9 +417,14 @@ padding-bottom: 120px;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.portfolio-item:focus .taste-iteam-text {
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .taste-iteam-cover {
     position: relative;
     overflow: hidden;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .taste-iteam-text {
