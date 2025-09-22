@@ -322,7 +322,8 @@ padding-bottom: 120px;
     display: flex;
     gap: 24px;
     justify-content: center;
-    padding-left: 0;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .team-item-info  {
